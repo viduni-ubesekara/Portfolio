@@ -42,6 +42,7 @@ import tesla from "./company/tesla.png";
 import sezenta from "./company/sezenta.png";
 import avonet from "./company/avonet.png";
 import circles from "./company/circles.png";
+import bluechip from "./company/bluechip.jpg";
 
 import travely from "./travely.png";
 import neighbourly from "./neighbourly.png";
@@ -60,6 +61,7 @@ import goTicketMobile from "./go-ticket-mobile.jpeg";
 import learnify from "./learnify.png";
 import nasa from "./nasa.png";
 import pmPulse from "./pm-pulse.jpg";
+
 
 export {
   springboot,
@@ -120,4 +122,6 @@ export {
   pmPulse,
   avonet,
   circles,
+  bluechip
+
 };

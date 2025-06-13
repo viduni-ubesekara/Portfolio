@@ -30,7 +30,7 @@ const Hero = () => {
 
           <p className="mt-10">
             <img
-              src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2000&pause=2000&color=F7E976&width=1500&lines=A+UI/UX+Designer+%7C%7C+IT+Undergraduate"
+              src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2000&pause=2000&color=F7E976&width=1500&lines=Creative+Developer+%7C%7C+IT+Undergraduate"
               alt="Typing SVG"
             />
           </p>

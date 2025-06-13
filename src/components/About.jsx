@@ -26,14 +26,13 @@ const About = () => {
       </div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-center text-xl  leading-[30px]"
+        className="mt-4 text-secondary text-justify text-xl  leading-[30px]"
       >
-       I'm an IT undergraduate with a passion for designing intuitive and impactful user experiences. I enjoy creating innovative solutions that improve the efficiency and effectiveness of systems and workflows.
+      I’m an IT undergraduate with a strong passion for creating innovative, user-centered digital solutions. With interests in UI/UX design, web development, and software development, I enjoy building intuitive and impactful experiences that enhance the efficiency and effectiveness of systems and workflows.
 
-I’m a flexible, hardworking, and self-motivated individual with a friendly attitude and a strong desire to learn and grow in the field of UI/UX design. I also have experience leading and collaborating with teams, where I motivate and support others to achieve shared goals.
+I’m a hardworking, flexible, and self-motivated individual with a friendly attitude and a continuous desire to learn and grow in the tech field. I thrive in both individual and team environments and have experience leading and collaborating with others to achieve shared goals. My strong interpersonal and communication skills help me work seamlessly with people from diverse backgrounds.
 
-With strong interpersonal and communication skills, I easily connect and work well with people from different backgrounds. I’m excited to continue building user-centered designs that are not only functional but also visually engaging.
-      </motion.p>
+Whether I'm designing user interfaces, developing responsive websites, or solving complex problems through code, I’m committed to delivering functional, visually engaging, and meaningful digital experiences that make a real impact.</motion.p>
 
       <div className="mt-20 justify-center flex flex-wrap gap-10">
         {services.map((service, index) => (
