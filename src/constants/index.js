@@ -80,7 +80,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Personal Tutor",
+    title: "Web Designer",
     icon: mobile,
   },
   {

@@ -28,13 +28,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-center text-xl  leading-[30px]"
       >
-        I'm a software engineering undergraduate with a passion for developing
-        innovative programs that expedite the efficiency and effectiveness of
-        organizational success . Skilled leader who has the proven ability to
-        motivate, educate and manage a team. Also a hardworking, flexible,
-        enthusiastic and self-motivated individual with a friendly attitude. I
-        believe that I have good interpersonal and communication skills, which
-        makes me getting along and working with people easily.
+       I'm an IT undergraduate with a passion for designing intuitive and impactful user experiences. I enjoy creating innovative solutions that improve the efficiency and effectiveness of systems and workflows.
+
+I’m a flexible, hardworking, and self-motivated individual with a friendly attitude and a strong desire to learn and grow in the field of UI/UX design. I also have experience leading and collaborating with teams, where I motivate and support others to achieve shared goals.
+
+With strong interpersonal and communication skills, I easily connect and work well with people from different backgrounds. I’m excited to continue building user-centered designs that are not only functional but also visually engaging.
       </motion.p>
 
       <div className="mt-20 justify-center flex flex-wrap gap-10">

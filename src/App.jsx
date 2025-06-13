@@ -16,7 +16,7 @@ const App = () => {
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
-          <div className="hero-section" style={{ backgroundImage: 'url("src/assets/herobg.png")', backgroundPosition: 'right', backgroundSize: '50%', height: '100vh' }}>
+          <div className="hero-section" style={{ backgroundImage: 'url("src/assets/herobg.jpg")', backgroundPosition: 'right', backgroundSize: '50%', height: '100vh' }}>
             <Hero />
           </div>
         </div>

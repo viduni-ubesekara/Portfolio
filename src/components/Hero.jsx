@@ -4,6 +4,7 @@ import { styles } from "../styles";
 
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { FiTwitter } from "react-icons/fi";
@@ -29,7 +30,7 @@ const Hero = () => {
 
           <p className="mt-10">
             <img
-              src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2000&pause=2000&color=F7E976&width=1500&lines=A+Full+Stack+Developer+%7C%7C+IT+Undergraduate"
+              src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2000&pause=2000&color=F7E976&width=1500&lines=A+UI/UX+Designer+%7C%7C+IT+Undergraduate"
               alt="Typing SVG"
             />
           </p>
@@ -44,13 +45,13 @@ const Hero = () => {
               </Link>
               <Link
                 to={
-                  "https://instagram.com/chill_broh_98?igshid=NTc4MTIwNjQ2YQ=="
+                  "https://www.instagram.com/itz.viduu?igsh=MW92c2VxMzMwbDRxYg=="
                 }
               >
                 <BsInstagram className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20" />
               </Link>
-              <Link to={"https://twitter.com/ChillBroh_98"}>
-                <FiTwitter className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20" />
+              <Link to={"https://www.facebook.com/share/1CQWf7BEah/"}>
+                <FaFacebook className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20" />
               </Link>
             </div>
           </div>
