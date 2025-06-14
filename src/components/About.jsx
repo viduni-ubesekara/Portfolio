@@ -94,7 +94,7 @@ const ExperienceCard = ({
         <span className="bg-gradient-to-r from-indigo-300 flex  items-center py-1 md:px-3 px-3 rounded-full md:w-64 min-w-[192px]">
           <img
             src={icon}
-            alt="sezenta"
+            alt="bluechip"
             className="md:w-12 md:h-12 h-16 w-16   "
           />
           <span className="flex ml-4 flex-col">
