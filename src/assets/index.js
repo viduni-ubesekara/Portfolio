@@ -52,6 +52,7 @@ import neighbourlyweb from "./neighbourlyweb.png";
 import wildlife from "./wildlife.png";
 import sliit from "./sliit.png";
 import richmond from "./richmond.png";
+import ecc from "./ecc.jpg";
 import unawatuna from "./unawatuna.png";
 import eventify from "./eventify.jpg";
 import eyezen from "./eyezen-web.jpeg";
@@ -111,6 +112,7 @@ export {
   wildlife,
   sliit,
   richmond,
+  ecc,
   unawatuna,
   eventify,
   eyezen,

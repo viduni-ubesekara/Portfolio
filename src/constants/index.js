@@ -48,7 +48,8 @@ import {
   pmPulse,
   avonet,
   circles,
-  bluechip
+  bluechip,
+  ecc
 } from "../assets";
 
 export const navLinks = [
@@ -198,27 +199,27 @@ const education = [
     institute: "SriLanka Institute of Information Technology",
     icon: sliit,
     iconBg: "#383E56",
-    year: "2021 - present",
+    year: "2022 - present",
     description:
-      "Currently reading for my Bachelors' Degree in Software Engineering (Bsc.(Hons) Information Technology Specialization in Software Engineering) at SriLanka Institute of Information Technology (SLIIT) - 3.6 CGPA",
-  },
+      "I am currently in my final year pursuing a Bachelor's Degree in Information Technology at the Sri Lanka Institute of Information Technology (SLIIT), with a current GPA of 2.6. Throughout my academic journey, I have gained practical and theoretical knowledge in various areas of IT, and I continue to develop my skills and experience to build a strong foundation for a successful career in the tech industry."
+    },
   {
     name: "Advanced Level",
-    institute: "Richmond College",
-    icon: richmond,
+    institute: "Eheliyagoda Central College",
+    icon: ecc,
     iconBg: "#383E56",
-    year: "2015 - 2018",
+    year: "2021",
     description:
-      "Passed General Certificate Advanced Level Exam in Biology stream with 2 B (Biology, Chemistry) and 1 C (Physics) Passes  ",
+      "Passed General Certificate Advanced Level Exam in art stream with 1A (Geography)  and 2 B (IT,Logic) Passes",
   },
   {
     name: "Ordinary Level",
-    institute: "Unawatuna M.V",
-    icon: unawatuna,
+    institute: "Eheliyagoda Central College",
+    icon: ecc,
     iconBg: "#383E56",
-    year: "2009 - 2014",
+    year: "2018",
     description:
-      "Passed General Certificate Ordinary Level Exam with 9 A passes",
+      "Passed General Certificate Ordinary Level Exam with 8A , 1B passes",
   },
 ];
 
