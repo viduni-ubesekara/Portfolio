@@ -65,7 +65,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My works</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
+        <h2 className={`${styles.sectionHeadText}`}> Development Projects</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -75,7 +75,7 @@ const Works = () => {
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
+          links to code repositories in it. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </motion.p>
@@ -86,9 +86,28 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      <motion.div variants={textVariant()}>
+     
+        <h2 className={`${styles.sectionHeadText}`}> Design Projects</h2>
+      </motion.div>
+
+      <div className="w-full flex">
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-3 text-secondary text-[17px] max-w-7xl leading-[30px]"
+        >
+          The following design projects demonstrate my creativity and user-centered approach to problem-solving. Each project includes a brief description along with links to interactive Figma designs. These works highlight my skills in UI/UX design, visual hierarchy, and usability principles, as well as my ability to communicate ideas clearly through prototypes and design systems.
+        </motion.p>
+      </div>
+
+      <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 gap-10">
+        {projects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
+      </div>
       <div className="mt-10 text-3xl justify-center flex flex-row gap-4">
-        <Link to={"https://github.com/ChillBroh"}>
-          Visit My github Account to view 80+ projects
+        <Link to={"https://github.com/viduni-ubesekara/"}>
+          Visit My github Account to view projects
         </Link>
         <FaRegArrowAltCircleRight className="animate-jump" />
       </div>
