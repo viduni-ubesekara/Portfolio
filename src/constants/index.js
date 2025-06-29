@@ -648,12 +648,414 @@ const projects = [
       "https://github.com/ChillBroh/WILD-LIFE-TRIP-SAFARI_MANAGEMENT-SYSTEM.git",
   },
 ];
+const design_projects = [
+  {
+    name: "figma 1",
+    description:
+      "E-learning management system. Users can select courses, enroll and start learning with watching video and completing quizes. Also there is admin and instructor dashboards",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "microservices",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kubernetes",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: learnify,
+    source_code_link: "https://github.com/ChillBroh/Learnify-FE.git",
+  },
+  {
+    name: "NASA Details Finder",
+    description:
+      "This web application based on NASA public Apis to get the Picture of the Day, Telescope Images and the Mars Rover Images with Full Details. Web application is hosted",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "netlify",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NASA-Apis",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: nasa,
+    source_code_link: "https://github.com/ChillBroh/NASA-FE.git",
+  },
+  {
+    name: "Eyezen",
+    description:
+      "Cutting-edge web app designed to enhance your visual experience! Our React  application combines cutting-edge technology with expert knowledge in eye care. EyeZen is your go-to solution for all things related to eye health",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google-maps",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ayurveda",
+        color: "green-text-gradient",
+      },
+    ],
+    image: eyezen,
+    source_code_link: "https://github.com/ChillBroh/EyeZen-Mobile.git",
+  },
+  {
+    name: "Eyezen Mobile",
+    description:
+      "Cutting-edge mobile app designed to enhance your visual experience! Our React native application combines cutting-edge technology with expert knowledge in eye care. EyeZen is your go-to solution for all things related to eye health",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google-maps",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ayurveda",
+        color: "green-text-gradient",
+      },
+    ],
+    image: eyezenMobile,
+    source_code_link: "https://github.com/ChillBroh/EyeZen-Mobile.git",
+  },
+  {
+    name: "Go Ticket",
+    description:
+      "Online Ticket Booking and Public Transport Management system. Using this web app, manager can manage users and see all the stats related to income and traffic",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "qr-scanner",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "public-transport",
+        color: "green-text-gradient",
+      },
+    ],
+    image: goTicket,
+    source_code_link: "https://github.com/ChillBroh/GoTicket-UI.git",
+  },
+  {
+    name: "Go Ticket Mobile",
+    description:
+      "Online Ticket Booking and Public Transport Management system. Using this mobile app can purchase tickets and topup the credit account",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "qr-scanner",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "public-transport",
+        color: "green-text-gradient",
+      },
+    ],
+    image: goTicketMobile,
+    source_code_link: "https://github.com/ChillBroh/GoTicket-Mobile.git",
+  },
+  {
+    name: "Eventify",
+    description:
+      "A web application for Event Management. This app includes realtime chat featue as well",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "real-time-chat",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rest-api",
+        color: "green-text-gradient",
+      },
+    ],
+    image: eventify,
+    source_code_link: "https://github.com/ChillBroh/Entertainment-WEB.git",
+  },
+  {
+    name: "Travely",
+    description:
+      "This is SLIIT 2nd year 2nd semester ITP project. Travely is a travel and tourism website with vehicle booking, hotel booking, special activity and also can book restaruants",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rest-api",
+        color: "green-text-gradient",
+      },
+    ],
+    image: travely,
+    source_code_link: "https://github.com/ChillBroh/Travely.git",
+  },
+  {
+    name: "Neighbourly",
+    description:
+      "MAD project using Kotlin in Android studio (Neighbourly - App for solution ideas for Economic crisis) for SLIIT 2nd year 2nd semester project",
+    tags: [
+      {
+        name: "kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Android Studio",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: neighbourly,
+    source_code_link:
+      "https://github.com/ChillBroh/MAD_Project_Neighbourly.git",
+  },
+  {
+    name: "Neighbourly (Web)",
+    description:
+      "Neighbourly is a web and mobile application created to address the economic crisis, food wastage, and poverty in rural Sri Lanka. The platform facilitates the sharing of surplus food and resources between individuals, businesses, and organizations. Users can list excess food items, connect with those in need, and contribute non-food items. Neighbourly aims to foster community collaboration, reduce food wastage, and uplift rural communities through technology and shared responsibility.",
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "wordpress",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: neighbourlyweb,
+    source_code_link: "https://github.com/ChillBroh/Neighbourly-Website.git",
+  },
+  {
+    name: "Dice Game",
+    description:
+      "Two players can simultaneously play this game. Player 1 must initially press the button to roll the dice. If player 1 gets 1, the current player will switch to player 2, otherwise, player 1 can carry on and his score will be added to player 1's overall score. The winner of the game is the player who scores 100 points first",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dicegame,
+    source_code_link: "https://github.com/ChillBroh/Roll-The-Dice-Game-.git",
+  },
+  {
+    name: "Guess The Number",
+    description:
+      "In this game a player must Enter a number between 1-20. When the player hits enter computer will generate a random number and will check with the enterend number. If both numbers are matching player wins otherwise player gets another chance.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: guessthenumber,
+    source_code_link: "https://github.com/ChillBroh/Roll-The-Dice-Game-.git",
+  },
+  {
+    name: "Wild Life Trip Safari Management System ",
+    description:
+      "This is SLIIT 1st Year 2nd semester IWT project. Wildlife Quest SL Management system is one of the best and easy websites where you can plan your holiday Safari trip with many benefits under fair Packages. ",
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+    ],
+    image: wildlife,
+    source_code_link:
+      "https://github.com/ChillBroh/WILD-LIFE-TRIP-SAFARI_MANAGEMENT-SYSTEM.git",
+  },
+];
 neighbourlyweb;
 export {
   services,
   technologies,
   education,
   projects,
+  design_projects,
   frameworks,
   databases,
   hosting,

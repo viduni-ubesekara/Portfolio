@@ -7,6 +7,7 @@ import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
+import { design_projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { Link } from "react-router-dom";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
@@ -101,7 +102,7 @@ const Works = () => {
       </div>
 
       <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 gap-10">
-        {projects.map((project, index) => (
+        {design_projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
