@@ -112,10 +112,7 @@ const technologies = [
     name: "Java",
     icon: java,
   },
-  {
-    name: "Kotlin",
-    icon: kotlin,
-  },
+
   {
     name: "CSS 3",
     icon: css,
@@ -166,10 +163,7 @@ const frameworks = [
     icon: tailwind,
   },
 
-  {
-    name: "Bootstrap",
-    icon: bootstrap,
-  },
+  
 ];
 const hosting = [
   {

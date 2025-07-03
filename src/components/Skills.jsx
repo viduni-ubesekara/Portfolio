@@ -30,17 +30,7 @@ const Skills = () => {
           ))}
         </div>
       </div>
-      {/* <div className="mt-10">
-        <p className="text-3xl mt-20 mb-20">DataBases: </p>
-        <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">
-          {databases.map((databases) => (
-            <div className="w-28 h-28" key={databases.name}>
-              <BallCanvas icon={technology.icon} />
-              <p className="text-center">{databases.name}</p>
-            </div>
-          ))}
-        </div>
-      </div> */}
+          
     </div>
   );
 };
