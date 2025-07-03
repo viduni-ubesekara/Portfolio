@@ -11,6 +11,7 @@ import { design_projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { Link } from "react-router-dom";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
+import {link} from "../assets";
 
 const ProjectCard = ({
   index,
@@ -31,15 +32,16 @@ const ProjectCard = ({
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
+  onClick={() => window.open(source_code_link, "_blank")}
+  className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer bg-black"
+>
+  <img
+    src={link}
+    alt="source code"
+    className="w-6 h-6 object-contain rounded-full"
+  />
+</div>
+
           </div>
         </div>
         <div className="mt-5">

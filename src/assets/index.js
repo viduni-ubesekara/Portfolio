@@ -9,7 +9,6 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -62,7 +61,16 @@ import goTicketMobile from "./go-ticket-mobile.jpeg";
 import learnify from "./learnify.png";
 import nasa from "./nasa.png";
 import pmPulse from "./pm-pulse.jpg";
-
+import AutoElite from "./AutoElite.png";
+import edunity from "./edunity.png";
+import greenlink from "./GreenLink.png";
+import helpdesk from "./online_helpdesk.png";
+import ImagiSpace from "./ImagiSpace.png";
+import link from "./link.png";
+import figma from "./figma.png";
+import luxescape from "./luxescape.png";
+import SkillArc from "./SkillArc.png";
+import NestAway from "./NestAway.png";
 
 export {
   springboot,
@@ -80,7 +88,6 @@ export {
   menu,
   close,
   css,
-  figma,
   git,
   html,
   java,
@@ -124,6 +131,16 @@ export {
   pmPulse,
   avonet,
   circles,
-  bluechip
+  bluechip,
+  AutoElite,
+  edunity,
+  greenlink,
+  helpdesk,
+  ImagiSpace,
+  figma,
+  link,
+  luxescape,
+  SkillArc,
+  NestAway,
 
 };

@@ -11,6 +11,7 @@ const Contact = () => {
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
+      {/* Left Side - Contact Details */}
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
@@ -24,12 +25,15 @@ const Contact = () => {
           </p>
           <p>
             <span className="font-semibold">Email:</span>{" "}
-            <a href="mailto:viduniubesekara@gmail.com" className="text-blue-400 underline">
+            <a
+              href="mailto:viduniubesekara@gmail.com"
+              className="text-blue-400 underline"
+            >
               viduniubesekara@gmail.com
             </a>
           </p>
           <p>
-            <span className="font-semibold">Phone:</span> +94 71 855 3935
+            <span className="font-semibold">Phone:</span> +94 70 222 2084
           </p>
           <p>
             <span className="font-semibold">LinkedIn:</span>{" "}
@@ -53,9 +57,21 @@ const Contact = () => {
               github.com/viduni-ubesekara
             </a>
           </p>
+
+          {/* Download CV Button */}
+         <div id="cv" className="mt-8">
+    <a
+      href="/Viduni_Ubesekara_CV.pdf"
+      download
+      className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-600 transition"
+    >
+      Download CV
+    </a>
+  </div>
         </div>
       </motion.div>
 
+      {/* Right Side - 3D Earth Canvas */}
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
